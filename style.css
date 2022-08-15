@@ -1,0 +1,47 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.add-item{
+    border: 1px solid rgb(103, 170, 3);
+    border-radius: 2px;
+}
+
+.input{
+    border: none;
+    width: 500px;
+    padding: 5px;
+
+}
+
+.additem{
+    padding: 5px;
+    color: rgb(103, 170, 3);
+    background-color: rgb(233, 232, 232);
+    border: 2px solid rgb(233, 233, 233);
+}
+
+.list-item{
+    width: 583px;
+    padding: 10px 0;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clear-item{
+    padding-top: 10px;
+}
+
+.clearitem{
+    padding: 5px;
+    color: rgb(103, 170, 3);
+    background-color: rgb(233, 232, 232);
+    border: 1px solid rgb(103, 170, 3);
+    border-radius: 2px;
+}
